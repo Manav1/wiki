@@ -1,6 +1,49 @@
 .navbar{
+    display:flex;
     width: 100%;
     background-color:black;
     height: 7vh;
+    min-height:55px;
     position: relative;
+    color:#64b1f3;
+    align-items: center;
+}
+.navbar_logo{
+    display:flex;
+    padding:10px;
+    flex:0.5;
+    gap:10px;
+    align-items: center;
+}
+.logo_project_span{
+    color:white;
+}
+.logo_image{
+    width:43px;
+    border-radius: 50%;
+}
+input{
+    width:400px;
+    height:40px;
+    border-radius:30px;
+    text-align:center;
+    font-size:34px;
+    color:white;
+    outline:none;
+    border:0px;
+    background-color:#1E1E1E;
+}
+.feels_like_spring{
+    margin-left:95px;
+    color:white;
+    font-size:13px;
+}
+@media (max-width: 567px) {
+    .navbar_logo{
+        flex:1;
+    }
+    input{
+        display: none;
+    }
+    
 }

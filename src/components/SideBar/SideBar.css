@@ -37,22 +37,31 @@
     border:0px;
     border-radius:2px;
     gap :5px;
+    background-position: center;
+    transition: background 0.8s;
+    outline:none;
 }
 .rect_button:hover{
-    background-color:#272727;
+    background:#272727  radial-gradient(circle, transparent 1%, #111111 1%) center/15000%;
+}
+.rect_button:active{
+    outline:none;
+    background-color: #272727;
+    background-size: 100%;
+    transition: background 0s;
 }
 .side_list{
     border-top:0.1px solid gray;
     border-bottom:0.1px solid gray;
 }
 .side_heading{
-    padding:10px 10px;
+    padding:10px 0px;
     display:flex;
     width:100%;
     align-items: center;
 }
 .side_listitem{
-    padding:10px 10px;
+    padding:10px 0px;
     display:flex;
     width:100%;
     align-items: center;
@@ -61,7 +70,8 @@
     transition: background 0.8s;
 }
 .side_listitem:hover{
-    background: #272727 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    background: #272727 radial-gradient(circle, transparent 1%, #111111 1%) center/15000%;
+
 }
 .side_listitem:active{
     background-color: #272727;
