@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin:0;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+.main_content{
+    width: 100%;
+    display:flex;
+}
+.mid_content{
+    width: 100%;
+    
+}
