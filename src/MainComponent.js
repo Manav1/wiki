@@ -3,7 +3,8 @@ import './MainComponent.css';
 import SideBar from './components/SideBar/SideBar';
 import Navbar from './components/Navbar/Navbar';
 import BreadCrum from './components/BreadCrums/BreadCrum';
-
+import CardTab from './components/CardTab/CardTab';
+import InformationTab from './components/InformationTab/InformationTab';
 
 
 function MainComponent(props) {
@@ -79,6 +80,10 @@ function MainComponent(props) {
                 />
                 <div className="mid_content">
                     <BreadCrum logoClicked={logoClicked} />
+                    <div className="information">
+                        <CardTab />
+                        <InformationTab />
+                    </div>
                 </div>
             </div>
 

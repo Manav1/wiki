@@ -9,6 +9,7 @@
     background-color:#0c0c0c ;
     color:white; 
     transition: visibility 0s linear 300ms, opacity 300ms;
+    z-index:1;
 }
 .sidebar_header{
     display:flex;

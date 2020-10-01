@@ -11,7 +11,7 @@ const BreadCrum = (props) => {
     return (
         <div className="breadcrum">
             <div className="breadcrum_content">
-                <HomeIcon /> / {data[3]}
+                <HomeIcon style={{ backgroundColor: "#1e1e1e" }} /> / {data[3]}
             </div>
         </div>
     )

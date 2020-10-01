@@ -24,11 +24,11 @@ const Sidebar = (props) => {
                     <div className="sidebar_header">
                         <div className="home">
                             <button className="rect_button">
-                                <HomeIcon />
+                                <HomeIcon style={{ backgroundColor: "#1e1e1e" }} />
                             </button>
                         </div>
                         <div className="browse">
-                            <button className="rect_button"><AccountTreeIcon />  Browse</button>
+                            <button className="rect_button"><AccountTreeIcon style={{ backgroundColor: "#1e1e1e" }} />  Browse</button>
                         </div>
                     </div>
                     <div className="side_list">
@@ -61,7 +61,6 @@ const Sidebar = (props) => {
     } else {
         return (
             <div>
-
             </div>
         )
     }

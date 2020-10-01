@@ -1,7 +1,7 @@
 .navbar{
     display:flex;
     width: 100%;
-    background-color:black;
+    background-color:#111111;
     height: 7vh;
     min-height:55px;
     position: relative;
@@ -23,16 +23,19 @@
     border-radius: 50%;
     cursor: pointer;
 }
+.navbar_searchbar{
+    background-color:#1e1e1e;
+}
 input{
     width:400px;
     height:40px;
-    border-radius:30px;
     text-align:center;
     font-size:34px;
     color:white;
     outline:none;
     border:0px;
-    background-color:#1E1E1E;
+    background-color:#1e1e1e;
+
 }
 .feels_like_spring{
     margin-left:95px;

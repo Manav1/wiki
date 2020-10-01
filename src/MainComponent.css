@@ -10,6 +10,16 @@
     display:flex;
 }
 .mid_content{
+    display:flex;
     width: 100%;
-    
+    flex-direction: column;
+}
+.information{
+    display:flex;
+}
+@media (max-width: 567px) {
+    .information{
+        display:flex;
+        flex-direction:column;
+    }
 }
